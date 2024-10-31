@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- ENTYPO ---------- */
+/* ---------- http://www.entypo.com/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+a[class*="entypo-"]:before {
+	font-family: 'entypo', sans-serif;
+}
+
+/* ---------- SOCIAL ---------- */
+
+.social {
+	position: relative;
+	height: 3em;
+	width: 12em;
+}
+
+.social li {
+	display: block;
+	height: 4em;
+	line-height: 4em;
+	margin: -2em;
+	position: absolute;
+	-webkit-transition: -webkit-transform .5s;
+	-moz-transition: -moz-transform .5s;
+	-ms-transition: -ms-transform .5s;
+	-o-transition: -o-transform .5s;
+	transition: transform .5s;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	text-align: center;
+	width: 4em;
+}
+
+.social a {
+	text-decoration: none !important; 
+	color: #fffdf0 !important;
+	display: block;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	width: 4em;	
+}
+
+.social li:hover {
+	-webkit-transform: rotate(405deg);
+	-moz-transform: rotate(405deg);
+	-ms-transform: rotate(405deg);
+	-o-transform: rotate(405deg);
+	transform: rotate(405deg);
+}
+
+.facebook {
+	background: #155b9d;
+	left: 0;
+	top: 0%;
+}
+
+.twitter {
+	background: #1a9ec4;
+	bottom: 0;
+	left: 25%;
+}
+
+.gplus {
+	background: #dd4b39;
+	left: 50%;
+	top: 0%;
+}
+
+.pinterest {
+	background: #cb2027;
+	bottom: 0;
+	left: 75%;
+}
+
+.linked-in {
+	background: #157f9d;
+	left: 100%;
+	top: 0%;
+}
